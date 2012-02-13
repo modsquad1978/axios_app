@@ -1,4 +1,22 @@
 AxiosApp::Application.routes.draw do
+  get "pages/dashboard"
+
+  get "pages/crm"
+
+  get "pages/pipeline"
+
+  get "pages/projects"
+
+  get "pages/resources"
+
+  get "pages/timesheets"
+
+  get "pages/mytodo"
+
+  get "pages/help"
+
+  get "pages/settings"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
